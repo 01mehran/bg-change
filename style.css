@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: lightslategrey;
+  font-family: cursive;
+}
+.container h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.container,
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn-wrapper button {
+  padding: 10px 30px;
+  margin: 0 1px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgb(199, 197, 197);
+}
+.btn-wrapper button:hover {
+  background-color: black;
+  color: rgba(250, 250, 6, 0.78);
+  text-decoration: underline;
+}
